@@ -1,0 +1,42 @@
+.forHeader{
+  margin-bottom: 2%;
+  background-color: darkslategray;
+  width: 100%;
+  height: 15%;
+}
+.navbar-brand{
+  color: white;
+}
+.navbar-brand:hover{
+  color: lightgray;
+}
+#event-title{
+  width: 15%;
+}
+#event-theme{
+  width: 25%;
+  margin-bottom: 2%;
+}
+#event-message{
+  padding-right: 15%;
+  padding-bottom: 25%;
+  margin-bottom: 1%;
+}
+.forMessage{
+  border: 1px solid gray;
+  padding-bottom: 15%;
+  padding-right: 15%;
+  margin-bottom: 1%;
+}
+.text-right{
+  text-align: right;
+}
+#addNew{
+  width: 100%;
+}
+#bodyForEvent{
+  text-align: center;
+}
+#buttonChange{
+  margin-right: 3%;
+}
