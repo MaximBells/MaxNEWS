@@ -1,27 +1,25 @@
-# Laravel PHP Framework
-
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Название проекта
+Название проекта - “MaxNews”. Его суть - портал новостей, где
+пользователи также могут писать свои новости, блоги и лайкать блоги
+других пользователей.
+Описание функционала
+В данном проекте будет реализована возможность авторизации, для
+авторизированных пользователей возможность добавлять статьи, лайкать
+блоги. Для редакторов - возможность добавлять и удалять новые темы.
+Для админа - удалять любой блог или статью, также менять данные
+пользователей. Немного про блоги: блоги нельзя редактировать ( как в
+твиттере ). Их можно удалить: или пользователь, который и создал блог,
+или админ.
+Новости уже можно редактировать. Каждый пользователь может
+редактировать или удалять только свои новости, однако админ может
+редактировать или удалять любую новость. При создании новости есть
+выбор из уже существующих тем, которые могут добавлять и удалять
+редакторы. Однако при удалении темы, это никак не отразится на уже
+существующих новостях, однако если пользователь захочет изменить
+свою новость, то он он уже не сможет поставить старую тему. Новости
+можно отсортировать по любой теме.
+Подробнее про лайки. Каждый отдельный пользователь может только
+один раз поставить лайк под каждым отдельным блогом, однако,
+количество постов, под которыми можно поставить мне нравится -
+неограниченно. Если пользователь еще раз нажмет лайк, то сам лайк
+уберется.
